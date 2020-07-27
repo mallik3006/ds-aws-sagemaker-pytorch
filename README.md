@@ -3,7 +3,7 @@
 
 ### Introduction
 
-The goal of this project is to predict the sentiment of the entered movie review via a simple web page which a user can use to enter a movie review which will then sent to a deployed model. The Model will be deployed as an endpoint on AWS which will be invoked via a API Gateway that will trigger the Lambda function containing the inference code.
+The goal of this project is to predict the sentiment of the entered movie review via a simple web page which a user can use to enter a movie review which will then sent to a deployed model. The Model will be built on AWS SageMaker platform and will be deployed as an endpoint which will be invoked via a API Gateway that will trigger the Lambda function containing the inference code.
 
 
 ### Data
