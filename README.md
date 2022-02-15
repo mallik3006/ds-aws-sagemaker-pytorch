@@ -26,4 +26,4 @@ Dataset contains reviews for 25,000 movies and is downloaded from - [IMDb datase
 * `SageMaker_sentiment_analysis.ipynb`: Notebook with text pre-processing, build and train PyTorch model with LSTM classifier, deploy model using AWS Lambda and API gateway.
 * `train.py`: This has the training method that is called by the PyTorch training script. 
 * `predict.py`: The inference script used for the actual prediction.
-* `index.html`: Webpage that is utilized for entering a moview review to get the sentiment analysis prediction.
+* `index.html`: Webpage that is utilized for entering a movie review to get the sentiment analysis prediction.
